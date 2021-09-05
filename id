@@ -1,0 +1,7 @@
+start : expr
+expr : factor
+expr : ( expr )
+factor : NUM
+factor : + factor
+factor : factor + NUM
+
